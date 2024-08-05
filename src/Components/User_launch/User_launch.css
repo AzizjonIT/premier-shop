@@ -1,0 +1,43 @@
+#offcanvas{
+  
+   background-color: #202124;
+   color: aliceblue;
+   
+}
+#offcanvas_title{
+  margin-left: auto;
+    padding-left: 20px;
+   
+}
+
+.offcanvas_icons{
+    font-size: 100px;
+     padding-top: 20px;
+}
+.offcanvas_text{
+    text-align: center;
+    height: auto;
+}
+
+
+
+.offcanvas_but {
+    
+  color: aliceblue;
+   width: 200px;
+margin-top: 50px;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: black;
+  transition: 1s;
+  border: 2px solid  #5c5c5c;
+}
+
+.offcanvas_but:active {
+  color: black;
+  border-radius: 15px;
+  transition: 0.4s;
+  background-color: aliceblue;
+  border: 2px solid black;
+}

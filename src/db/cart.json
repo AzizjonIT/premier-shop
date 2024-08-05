@@ -1,0 +1,131 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "Azizbek@gmail.com",
+      "userPass": "12345"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Mercedes G Class AMG G63",
+      "image": "11.png",
+      "price": "$340,100",
+      "numer": "+998 95 898 2326",
+      "malumot": "Click the button to find out more closely",
+      "addres": "Contact the following numbers to get the information in detail ",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae commodi impedit nostrum officiis, doloribus officia corrupti? "
+    },
+    {
+      "id": "2",
+      "title": "Mercedes-Benz G-Class AMG G 63",
+      "image": "12.png",
+      "price": "$350,500",
+      "numer": "+998 95 898 2326",
+      "malumot": "Click the button to find out more closely",
+      "addres": "The 17Store offers a wide range of ideal accessories for electric vehicles!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae commodi impedit nostrum officiis, doloribus officia corrupti? "
+    },
+    {
+      "id": "3",
+      "title": "MERCEDES-BENZ E CLASS 2011 ",
+      "image": "3.png",
+      "price": "$130,700",
+      "numer": "+998 95 898 2326",
+      "malumot": "Click the button to find out more closely",
+      "addres": "The 17Store offers a wide range of ideal accessories for electric vehicles!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae commodi impedit nostrum officiis, doloribus officia corrupti? "
+    },
+    {
+      "id": "4",
+      "title": "MERCEDES-BENZ C CLASS AMG",
+      "image": "4.png",
+      "price": "$200,500",
+      "numer": "+998 95 898 2326",
+      "malumot": "Click the button to find out more closely",
+      "addres": "The 17Store offers a wide range of ideal accessories for electric vehicles!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae commodi impedit nostrum officiis, doloribus officia corrupti? "
+    },
+    {
+      "id": "5",
+      "title": "Subtly modified BMW M8 ",
+      "image": "7.png",
+      "price": "$180,900",
+      "numer": "+998 95 898 2326",
+      "malumot": "Click the button to find out more closely",
+      "addres": "The 17Store offers a wide range of ideal accessories for electric vehicles!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae commodi impedit nostrum officiis, doloribus officia corrupti? "
+    },
+    {
+      "id": "6",
+      "title": "New four-door BMW M8",
+      "image": "9.png",
+      "price": "$183,900",
+      "numer": "+998 95 898 2326",
+      "malumot": "Click the button to find out more closely",
+      "addres": "The 17Store offers a wide range of ideal accessories for electric vehicles!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae commodi impedit nostrum officiis, doloribus officia corrupti? "
+    },
+    {
+      "id": "7",
+      "title": "The All-New BMW M3 ",
+      "image": "10.png",
+      "price": "$110,000",
+      "numer": "+998 95 898 2326",
+      "malumot": "Click the button to find out more closely",
+      "addres": "The 17Store offers a wide range of ideal accessories for electric vehicles!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae commodi impedit nostrum officiis, doloribus officia corrupti? "
+    },
+    {
+      "id": "8",
+      "title": "MEGA GALLERY: F90 BMW M5  ",
+      "image": "6.png",
+      "price": "$157,258",
+      "numer": "+998 95 898 2326",
+      "malumot": "Click the button to find out more closely",
+      "addres": "The 17Store offers a wide range of ideal accessories for electric vehicles!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae commodi impedit nostrum officiis, doloribus officia corrupti? "
+    },
+    {
+      "id": "9",
+      "title": "2022 Bugatti Chiron",
+      "image": "15.png",
+      "price": "$3,800,000",
+      "numer": "+998 95 898 2326",
+      "malumot": "Click the button to find out more closely",
+      "addres": "The 17Store offers a wide range of ideal accessories for electric vehicles!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae commodi impedit nostrum officiis, doloribus officia corrupti? "
+    },
+    {
+      "id": "10",
+      "title": "Bugatti Chiron Super Sports Car",
+      "image": "13.png",
+      "price": "$4,200,000",
+      "numer": "+998 95 898 2326",
+      "malumot": "Click the button to find out more closely",
+      "addres": "The 17Store offers a wide range of ideal accessories for electric vehicles!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae commodi impedit nostrum officiis, doloribus officia corrupti? "
+    },
+    {
+      "id": "11",
+      "title": "Bugatti Veyron Grand Sport Red Edition ",
+      "image": "2.png",
+      "price": "$3,700,000",
+      "numer": "+998 95 898 2326",
+      "malumot": "Click the button to find out more closely",
+      "addres": "The 17Store offers a wide range of ideal accessories for electric vehicles!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae commodi impedit nostrum officiis, doloribus officia corrupti? "
+    },
+    {
+      "id": "12",
+      "title": "Bugatti Chiron - PistonHeads UK",
+      "image": "14.png",
+      "price": "$3,900,000",
+      "numer": "+998 95 898 2326",
+      "malumot": "Click the button to find out more closely",
+      "addres": "The 17Store offers a wide range of ideal accessories for electric vehicles!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae commodi impedit nostrum officiis, doloribus officia corrupti? "
+    }
+  ]
+}

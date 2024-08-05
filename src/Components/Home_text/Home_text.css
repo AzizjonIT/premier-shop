@@ -1,0 +1,203 @@
+.text_card {
+  text-align: center;
+  margin: 0;
+
+  padding-left: 100px;
+  padding-right: 100px;
+  color: aliceblue;
+}
+.text_card_2 {
+  padding-top: 220px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 50px;
+  color: aliceblue;
+  margin: 0;
+}
+@media only screen and (max-width: 1320px) {
+  .text_card_2 {
+    padding-top: 140px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .text_card_2 {
+    padding-top: 120px;
+  }
+    .text_card {
+    
+     padding-left: 50px;
+  padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .text_card_2 {
+    padding-top: 110px;
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 1090px) {
+  .text_card {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 937px) {
+  .text_card_2 {
+    padding-top: 110px;
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+  .text_card {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 817px) {
+  .text_card_2 {
+    padding-top: 80px;
+    padding-bottom: 10px;
+    font-size: 25px;
+  }
+  .text_card {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .text_card_2 {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-size: 25px;
+  }
+  .text_card {
+    font-size: 13px;
+     padding-left: 50px;
+  padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .text_card_2 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 25px;
+  }
+  .text_card {
+    font-size: 13px;
+     padding-left: 40px;
+  padding-right: 40px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .text_card_2 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 19px;
+  }
+  .text_card {
+    font-size: 13px;
+     padding-left: 5px;
+  padding-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 577px) {
+  .text_card_2 {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-size: 19px;
+  }
+  .text_card {
+    font-size: 12px;
+     padding-left: 5px;
+  padding-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 545px) {
+  .text_card_2 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 15px;
+  }
+  .text_card {
+    font-size: 11px;
+     padding-left: 5px;
+  padding-right: 5px;
+  }
+}
+@media only screen and (max-width: 496px) {
+  .text_card_2 {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-size: 15px;
+  }
+  .text_card {
+    font-size: 11px;
+     padding-left: 5px;
+  padding-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .text_card_2 {
+    padding-top: 2px;
+    padding-bottom: 0px;
+    font-size: 12px;
+  }
+  .text_card {
+    font-size: 11px;
+     padding-left: 2px;
+  padding-right: 2px;
+  }
+}
+
+
+@media only screen and (max-width: 449px) {
+  .text_card_2 {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-size: 12px;
+  }
+  .text_card {
+    font-size: 10px;
+     padding-left: 2px;
+  padding-right: 2px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .text_card_2 {
+    padding-top: 18px;
+    padding-bottom: 0px;
+    font-size: 17px;
+  }
+  .text_card {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+     padding-left: 5px;
+  padding-right: 5px;
+  height: 310px;
+  }
+}
+
+@media only screen and (max-width: 388px) {
+  .text_card_2 {
+    padding-top: 18px;
+    padding-bottom: 20px;
+    font-size: 17px;
+  }
+  .text_card {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+     padding-left: 5px;
+  padding-right: 5px;
+  height: 310px;
+  }
+}
+
+

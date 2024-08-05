@@ -1,0 +1,163 @@
+.Home_contain{
+    background-color: black;
+}
+
+.home_carousel_img{
+    margin: auto;
+}
+.about_imge{
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+ background-size: 100%;
+    background-image: url(../../Components/IMG/Bugatti.png);
+    background-color: black;
+}
+
+@media only screen and (max-width: 1320px) {
+.about_imge{
+ 
+    height: 740px;
+  
+}
+}
+@media only screen and (max-width: 1260px) {
+.about_imge{
+ 
+    height: 710px;
+  
+}
+}
+@media only screen and (max-width: 1230px) {
+.about_imge{
+ 
+    height: 690px;
+  
+}
+}
+
+@media only screen and (max-width: 1200px) {
+.about_imge{
+ 
+    height: 670px;
+  
+}
+}
+
+@media only screen and (max-width: 1160px) {
+.about_imge{
+ 
+    height: 650px;
+  
+}
+}
+@media only screen and (max-width: 1120px) {
+.about_imge{
+ 
+    height: 630px;
+  
+}
+}
+
+@media only screen and (max-width: 1090px) {
+.about_imge{
+ 
+    height: 600px;
+  
+}
+}
+
+@media only screen and (max-width: 1040px) {
+.about_imge{
+ 
+    height: 500px;
+  
+}
+}
+
+@media only screen and (max-width: 936px) {
+.about_imge{
+ 
+    height: 450px;
+  
+}
+}
+
+@media only screen and (max-width: 936px) {
+.about_imge{
+ 
+    height: 400px;
+  
+}
+}
+
+@media only screen and (max-width: 700px) {
+.about_imge{
+ 
+    height: 380px;
+  
+}
+}
+
+@media only screen and (max-width: 660px) {
+.about_imge{
+ 
+    height: 370px;
+  
+}
+}
+
+@media only screen and (max-width: 620px) {
+.about_imge{
+ 
+    height: 330px;
+  
+}
+}
+@media only screen and (max-width: 560px) {
+.about_imge{
+ 
+    height: 310px;
+  
+}
+}
+
+@media only screen and (max-width: 520px) {
+.about_imge{
+ 
+    height: 290px;
+  
+}
+}
+
+@media only screen and (max-width: 490px) {
+.about_imge{
+ 
+    height: 270px;
+  
+}
+}
+
+@media only screen and (max-width: 460px) {
+.about_imge{
+ 
+    height: 260px;
+  
+}
+}
+@media only screen and (max-width: 440px) {
+.about_imge{
+    background-image: none;
+    height: 350px;
+  
+}
+}
+@media only screen and (max-width: 388px) {
+.about_imge{
+    background-image: none;
+    height: 390px;
+  
+}
+}
+
+
