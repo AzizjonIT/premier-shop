@@ -6,14 +6,18 @@ import Footer from "../../Components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../Components//Navbar/Navbarjs.jsx";
 import About from "../../Components/About/About";
+import Diagrama from "../../Components/Diagrama/Diagrama";
 
 const Home = () => {
   return (
     <React.Fragment>
       <Navbarjs />
       <div className="home_carousel_img">
-        <About />
+        <div className="home_carousel_diagrama">
+          <Diagrama />
+        </div>
       </div>
+
       <div className="Home_contain">
         <Products />
       </div>

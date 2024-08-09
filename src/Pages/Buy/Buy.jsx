@@ -16,7 +16,7 @@ const Buy = () => {
   const { addItem } = useCart();
   useEffect(() => {
     axios
-      .get(`http://localhost:9000/products/${params.productId}`)
+      .get(`https://fakestoreapi.com/products/${params.productId}`)
       .then((response) => setProduct(response.data))
       .catch((error) => {
         console.error("Error fetching product data:", error);
@@ -31,22 +31,17 @@ const Buy = () => {
         <div className="buy_cont">
           <div className="total_products">
             <div className="total_images">
-              <img
-                className="total_images_img"
-                src={process.env.PUBLIC_URL + "/images/" + Products.image}
-                alt=""
-              />
+              <img className="total_images_img" src={Products.image} alt="" />
             </div>
             <div className="total_carts">
-              <h4 className="total_carts_h4">{Products.title}</h4>
+              <h4 className="total_carts_h4"> {Products.title} </h4>
               <div className="total_price">
-                <h6 className="total_price_p">{Products.text}</h6>
+                <h6 className="total_price_p">{Products.description} </h6>
               </div>
               <div className="total_price">
-                <h6 className="total_price_p">{Products.malumot}</h6>
+                <h6 className="total_price_p">{Products.category} </h6>
               </div>
 
-              <p className="total_price_p">{Products.addres}</p>
               <div className="total_carts_buttons">
                 <div className="total_number_">
                   <p className="total_num">
@@ -54,8 +49,12 @@ const Buy = () => {
                     {Products.price}{" "}
                   </p>
                   <p className="total_num">
-                    <AiFillPhone className="react_icons_tel" />
-                    {Products.numer}
+                    <IoMdPricetags className="react_icons_tel" />
+                    {Products.rating?.count}
+                  </p>
+                  <p className="total_num">
+                    <IoMdPricetags className="react_icons_tel" />
+                    {Products.rating?.rate}
                   </p>
                 </div>
 

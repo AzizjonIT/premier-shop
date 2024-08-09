@@ -4,7 +4,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 
 const User_name = () => {
-  const url = "http://localhost:9000/users";
+  const url = "https://fakestoreapi.com/users";
 
   const [UserName, setUserName] = useState("");
   const [UserPass, setUserPass] = useState("");
@@ -18,7 +18,7 @@ const User_name = () => {
 
         for (let i = 0; i < data.length; i++) {
           const element = data[i];
-          if (element.userName === UserName && element.userPass === UserPass) {
+          if (element.email === UserName && element.password === UserPass) {
             setError(false);
             localStorage.setItem("login", JSON.stringify(element));
             window.location.replace(`/${element.id}/Home`);

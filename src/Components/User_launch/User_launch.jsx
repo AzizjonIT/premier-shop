@@ -41,8 +41,8 @@ function Example() {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <div className="offcanvas_text">
-            <h4> {User.userName} </h4>
-            <h6> {User.userPass} </h6>
+            <h4> {User.email} </h4>
+            <h6> {User.password} </h6>
 
             <button onClick={Logout} className="offcanvas_but">
               Exit

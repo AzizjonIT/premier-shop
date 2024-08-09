@@ -12,7 +12,7 @@ const [Products, setProducts] = useState([]);
 
   useEffect(() => {
     axios
-      .get(`http://localhost:9000/products`)
+      .get(`https://fakestoreapi.com/products`)
       .then((res) => {
         setProducts(res.data);
         setInitialCars(res.data);
@@ -64,12 +64,16 @@ const [Products, setProducts] = useState([]);
                 <div className="brandsproducts_shop">
                   <img
                     className="brandsproducts_images"
-                    src={process.env.PUBLIC_URL + "/Images/" + Products.image}
+                    src={Products.image}
                     alt=""
                   />
-                  <h5 className="products_h3"> {Products.title} </h5>
-                  <p className="brandsproducts_p"> {Products.text} </p>
-                  <h5 className="products_h2">17.09 €</h5>
+                  <h5 className="products_h3">
+                    {Products.title.slice(0, 20)}{" "}
+                  </h5>
+                  <p className="brandsproducts_p">
+                    {Products.description.slice(0, 65)}{" "}
+                  </p>
+                  <h5 className="products_h2">{Products.price} </h5>
                   <Link
                     className="products_link"
                     to={`/products/${Products.id}`}

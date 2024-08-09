@@ -4,9 +4,8 @@ const Context = createContext();
 
 const ContextProvider = ({ children }) => {
   const userRegisterObject = {
-    id: 1,
-    userName: "azizxon@gmail.com",
-    userPass: "7777",
+    email: "john@gmail.com",
+    password: "m38rmF$",
   };
 
   return (
